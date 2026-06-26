@@ -153,7 +153,7 @@ export async function sign_x402_payment({ agent, payTo, amount = 1000000, asset,
 }
 
 export async function get_pool_stats() {
-  const vaultHash = "664d99de146b9b573161a387d89fefc649677351d8a6d2acbe22109bf88f6b12";
+  const vaultHash = "ca4086d3a7b1abf000d0a79e23a237bb484a14807e9438f2c56f3461073e1b2f";
   const pool = (await tokenBalance(CFG.vaultPackage === vaultHash ? vaultHash : CFG.vaultPackage)) / 1e9;
   log(`Vault liquidity pool: ${pool.toFixed(4)} F402`);
   return { vaultPackage: CFG.vaultPackage, cep18Package: CFG.cep18Package, poolLiquidityF402: pool };

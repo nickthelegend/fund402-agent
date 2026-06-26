@@ -24,7 +24,7 @@ export const CFG = {
   csprCloudRest: process.env.CSPR_CLOUD_REST || "https://api.testnet.cspr.cloud",
   csprCloudKey: process.env.CSPR_CLOUD_API_KEY || "",
   facilitatorUrl: process.env.FUND402_FACILITATOR_URL || "https://x402-facilitator.cspr.cloud",
-  vaultPackage: strip(process.env.FUND402_VAULT_PACKAGE || "664d99de146b9b573161a387d89fefc649677351d8a6d2acbe22109bf88f6b12"),
+  vaultPackage: strip(process.env.FUND402_VAULT_PACKAGE || "ca4086d3a7b1abf000d0a79e23a237bb484a14807e9438f2c56f3461073e1b2f"),
   cep18Package: strip(process.env.FUND402_CEP18_PACKAGE || "389cedc529cc553e2639884c9dcc5e6dcbeb3920f7f5ca5a39bf7f7b866bccd0"),
   cep18Name: process.env.FUND402_CEP18_NAME || "Fund402 USDC",
   cep18Version: process.env.FUND402_CEP18_VERSION || "1",

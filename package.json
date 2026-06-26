@@ -14,7 +14,8 @@
   },
   "scripts": {
     "tool": "node src/cli.mjs",
-    "tools": "node src/cli.mjs list"
+    "tools": "node src/cli.mjs list",
+    "test": "node --test test/*.test.mjs"
   },
   "dependencies": {
     "@noble/hashes": "^1.4.0",
