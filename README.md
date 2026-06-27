@@ -5,6 +5,8 @@ on Casper. A set of real, on-chain tools an AI agent can call to manage wallets,
 move funds, and take just-in-time credit + x402 payments — **live on casper-test**
 against the deployed vault + CEP-18.
 
+**▶ [Watch the 45-second Fund402 demo](https://github.com/nickthelegend/fund402-casper/blob/main/promo/fund402-promo.mp4).**
+
 Used by **[fund402-mcp](https://github.com/nickthelegend/fund402-mcp)** (MCP server +
 Groq TUI), but works standalone via the CLI or as a library.
 
